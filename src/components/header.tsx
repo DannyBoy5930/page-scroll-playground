@@ -41,7 +41,7 @@ export default function Header() {
           <li
             key={route.path}
             className={cn(
-              "rounded-sm px-2 py-1 text-black/70 transition hover:text-orange-500 focus:text-white",
+              "hover:text-ltOrange rounded-sm px-2 py-1 text-black/70 transition focus:text-white",
               { "bg-black/10 text-black": route.path === activePathname },
             )}
           >
