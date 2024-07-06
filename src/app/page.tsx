@@ -1,10 +1,13 @@
-import Link from "next/link";
-import Header from "~/components/header";
-
 export default function HomePage() {
   return (
-    <main className="flex min-h-screen flex-col bg-gradient-to-b from-[#2e026d] to-[#15162c] text-white">
-      <Header></Header>
-    </main>
+    <article className="mx-auto flex min-h-screen max-w-[1050px] flex-col px-4">
+      <h1 className="mb-10">Title</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas
+        id est, vel voluptates culpa repudiandae ad officia in commodi
+        asperiores officiis dolorum beatae ut quidem pariatur facilis
+        dignissimos dolores.
+      </p>
+    </article>
   );
 }
