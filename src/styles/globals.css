@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.state-effects {
+  @apply transition hover:scale-105 focus:scale-105 active:scale-[1.02];
+}
+
+* {
+  scrollbar-width: none;
+}

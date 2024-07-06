@@ -4,6 +4,7 @@ import { GeistSans } from "geist/font/sans";
 import { type Metadata } from "next";
 import Container from "~/components/ui/container";
 import Header from "~/components/header";
+import LoneTrailBreak from "~/components/lonetrail-break";
 
 export const metadata: Metadata = {
   title: "Scroll and Transition Playground",
@@ -21,6 +22,7 @@ export default function RootLayout({
           <Header></Header>
           {children}
         </Container>
+        <LoneTrailBreak></LoneTrailBreak>
       </body>
     </html>
   );
