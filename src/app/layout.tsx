@@ -16,7 +16,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={`${GeistSans.variable}`}>
-      <body>
+      <body className="bg-gradient-to-b from-[#FAF0E4] to-[#AAA96E]">
         <Container>
           <Header></Header>
           {children}
