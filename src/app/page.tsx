@@ -1,7 +1,11 @@
+import Image from "next/image";
+import H1 from "~/components/ui/h1";
+import picture1 from "public/images/1.jpg";
+
 export default function HomePage() {
   return (
-    <article className="mx-auto flex min-h-screen max-w-[1050px] flex-col px-4">
-      <h1 className="mb-10 text-4xl">Homepage</h1>
+    <article>
+      <H1 className="mb-10">Homepage</H1>
       <p>This website does not currently support mobile view.</p>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quos voluptas
@@ -102,6 +106,7 @@ export default function HomePage() {
         ut sagittis interdum, mollis vitae magna. Sed iaculis mi non rutrum
         sagittis.
       </p>
+      <Image src={picture1} alt="Picture of mountains" className="my-2"></Image>
     </article>
   );
 }
