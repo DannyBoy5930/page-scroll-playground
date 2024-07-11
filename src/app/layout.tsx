@@ -5,6 +5,7 @@ import { type Metadata } from "next";
 import Container from "~/components/ui/container";
 import Header from "~/components/header";
 import LoneTrailBreak from "~/components/lonetrail-break";
+import "../styles/globals.css";
 
 export const metadata: Metadata = {
   title: "Scroll and Transition Playground",

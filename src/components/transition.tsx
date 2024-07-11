@@ -7,7 +7,7 @@ type TransitionProps = {
   children: React.ReactNode;
 };
 
-// TODO: Fix GSAP transition - tutorial used old pages router, figure out gsap/react and gsap
+// TODO: Fix GSAP transition - tutorial used old pages router, figure out gsap/react and gsap with app router
 export default function Transition({ children }: TransitionProps) {
   const [displayChildren, setDisplayChildren] = useState(children);
   const container = useRef<HTMLDivElement>(null);

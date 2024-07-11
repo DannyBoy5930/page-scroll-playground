@@ -9,3 +9,15 @@
 * {
   scrollbar-width: none;
 }
+
+/* swiper */
+.mySwiper {
+  height: 100vh; /* Ensure it takes full viewport height */
+}
+
+.swiper-slide {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
